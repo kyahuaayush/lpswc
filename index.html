@@ -57,28 +57,33 @@
 
   <!--====== Header PART START ======-->
 <style>
-  @media (max-width: width 750px) {
-    .header_area img{
-      display: block;
-      margin: 0 auto;
+  @media (max-width: 750px) {
+   
     }
+    .sticky {
+  position: absolute;
+    display:block;
+}
+}
   }
 </style>
-  <section class="header_area" style="background-color: #FFF; align-items: center; position: fixed;">
+  <section class="header_area" style="background-color: ; align-items: center; position: ;">
+    <div class="logo-text text_header header_top_info" style="color: #ffff; text-align: center;">
+      <ul>
+        <li style="color: #ffff">
+          <img  src="assets/images/call.png" alt="call" /><a href="#"
+            >+917290068865 / +917290068848</a>
+        </li>
+        
+      </ul>
+    </div>
     <div class="logo">
-      <img src="assets\images\logo.png" alt="Swastik Classes Logo" style="max-width: 250px;
-      display: ;
-      margin: 7px 30px;">
+      
       <div class="text_header header_top_info d-none" style=" :#000; display:block; text-align:;; float: right; padding: 15px">
-        <ul>
-          <li>
-            <img src="assets/images/call.png" alt="call" /><a href="#"
-              >+917290068865 / +917290068848</a>
-          </li>
-          
-        </ul>
+        
       </div>
     </div>
+    
     
     <!-- <div class="header_top">
         <div class="container">
@@ -225,6 +230,10 @@
 <style>
   
 </style>
+<img class=" sticky header_img" src="assets\images\logo.png" alt="Swastik Classes Logo" style="max-width: 230px;
+      display: ;
+      margin: 25px 30px;
+      z-index: 1;">
   <section class="slider_area slider-active">
     <div class="single_slider bg_cover d-flex align-items-center" style="background-image: url(assets/images/header_img.png);">
       <div class="container">
@@ -392,13 +401,22 @@
 
   <!--====== About PART START ======-->
 
-  <section class="about_area pt-80">
-    <img class="shap_1" src="assets/images/shape/shape-1.png" alt="shape" />
-    <img class="shap_2" src="assets/images/shape/shape-2.png" alt="shape" />
-    <img class="shap_3" src="assets/images/shape/shape-3.png" alt="shape" />
-    <img class="shap_4" src="assets/images/shape/shape-4.png" alt="shape" />
+  <section class="about_area ">
+    <!-- <div class="logo2" style="position:sticky ; top:0;
+    left:0;">
+      <img class=" sticky header_img" src="assets\images\logo2.png" alt="Swastik Classes Logo" style="max-width: 250px;
+      display: ;
+      margin: 0px;
+      padding-top: 0;
+      z-index: 100;">
+    </div> -->
+    
+    <img class="shap_1 pt-80" src="assets/images/shape/shape-1.png" alt="shape" />
+    <img class="shap_2 pt-80" src="assets/images/shape/shape-2.png" alt="shape" />
+    <img class="shap_3 pt-80" src="assets/images/shape/shape-3.png" alt="shape" />
+    <img class="shap_4 pt-80" src="assets/images/shape/shape-4.png" alt="shape" />
 
-    <div class="container">
+    <div class="container pt-80">
       <div class="row">
         <div class="col-lg-6">
           <div class="about_content mt-45">
@@ -592,6 +610,11 @@
     }
 
     .approach col-md-6 {}
+    @media (max-width:700px) {
+      .approach p {
+    color: white;
+     padding-left: 0;
+    }}
   </style>
   <div class="approach">
     <h1 style="
@@ -600,10 +623,10 @@
     <p class="app_about" style="
     color: white;
     padding-left: 0;
-    line-height: 3.5;
+    line-height: 1.75;
 ">At Swastik Classes, all of us work towards a motto we call<br><span style="color: black;font-size: 35px;font-weight: 400;line-height: 1; /* Will override color (regardless of order) */-webkit-text-stroke-width: 1.1px;-webkit-text-stroke-color: white;-webkit-text-fill-color: #667fd4;">“STEP-Approach”</span> .</p>
     <div class="row text_container" style="margin: 0 auto;
-    padding: 15px 0; width: 60%;">
+    padding: 15px 0; width: 70%;">
       <div class="col-md-12">
         <div class="app_head">
           <img src="https://i.ibb.co/VLPJPw0/s.png">
@@ -775,11 +798,11 @@
     font-weight: 500;
     font-size: 18px;
     text-align: justify;
-    margin: 15px 25px;}
+    margin: ;}
 
     .absb_sec p{
       margin: auto 15px;
-    padding: 35px 15px;
+    padding: 0px;
   }
   
   .absb_sec col-lg-6{
@@ -788,7 +811,7 @@
 }
 </style>
   <!--====== ABSB PART START ======-->
-  <section class="absb_sec">
+  <section class="absb_sec" style="background-color: #f1f1f1;">
     <h1 style="
     letter-spacing: 3px;
 ">About Our Leaders</h1>
@@ -902,7 +925,9 @@
 
       <div class="col-lg-6">
         <div class="winn_div">
-          <img src="https://i.ibb.co/XYWtqCZ/winner.png" alt="winner" border="0">
+          <img src="https://i.ibb.co/XYWtqCZ/winner.png" style="
+          padding-top: 150px;
+      " alt="winner" border="0">
         </div>
       </div>
     </div>
